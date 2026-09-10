@@ -10,6 +10,7 @@ void retirar_dinero(float *saldo, float saldo_retirar)
 {
 
     while (saldo_retirar > *saldo)
+
     {
         printf("no hay saldo suficiente para retirar\n");
         printf("ingrese un nuevo monto a retirar: ");
